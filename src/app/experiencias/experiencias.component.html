@@ -1,0 +1,9 @@
+<h2>Experiências Profissionais</h2>
+<ul>
+  <li *ngFor="let experiencia of experiencias">
+    {{ experiencia.empresa }} - {{ experiencia.cargo }} ({{
+      experiencia.periodo
+    }})<br />
+    {{ experiencia.descricao }}
+  </li>
+</ul>

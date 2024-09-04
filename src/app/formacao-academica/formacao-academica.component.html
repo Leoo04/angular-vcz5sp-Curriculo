@@ -1,0 +1,6 @@
+<h2>Formação Acadêmica</h2>
+<ul>
+  <li *ngFor="let formacao of formacoes">
+    {{ formacao.instituicao }} - {{ formacao.curso }} ({{ formacao.conclusao }})
+  </li>
+</ul>
